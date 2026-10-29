@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio João GOAT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="tera">
+        <h1>Portfólio João GOAT</h1>
+        <p class="subtitulo">Explore as minhas atividades e criações</p>
+    </header>
+
+    <main class="container-portfolio">
+        <!-- 1. ATIVIDADE PRINCIPAL (Destaque) -->
+        <section class="card principal-card">
+            <h2>🚀 Atividade Principal</h2>
+            <p>Este é o meu projeto principal. Clique abaixo para abrir o site interativo em uma nova aba!</p>
+            <!-- Link externo que abre em nova aba -->
+            <a href="https://google.com" target="_blank" class="btn-interativo">Acessar Site Principal</a>
+        </section>
+
+        <div class="grid-projetos">
+            <!-- 2. CALCULADORA DE NOTA -->
+            <div class="card">
+                <h3>🧮 Calcular Nota (Minecraft)</h3>
+                <p>Descubra quanto você precisa tirar no terceiro trimestre baseado nas suas notas anteriores.</p>
+                <button onclick="calcularNota()" class="btn-interativo">Calcular Nota</button>
+            </div>
+
+            <!-- 3. SITE ALEATÓRIO E CRIATIVO -->
+            <div class="card">
+                <h3>🎨 Site Aleatório Personalizado</h3>
+                <p>Um espaço criativo e customizado por mim para mostrar ideias interativas.</p>
+                <!-- Substitua o link abaixo pelo site que você quiser -->
+                <a href="https://minecraft.net" target="_blank" class="btn-interativo">Visitar Site</a>
+            </div>
+
+            <!-- 4. ÍMPAR OU PAR -->
+            <div class="card">
+                <h3>🔢 Jogo do Ímpar ou Par</h3>
+                <p>Insira um número e o sistema te diz instantaneamente se ele é par ou ímpar.</p>
+                <button onclick="verificarImparPar()" class="btn-interativo">Jogar Ímpar ou Par</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
